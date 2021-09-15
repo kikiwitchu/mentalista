@@ -6,7 +6,7 @@ function chutar() {
         elementoResultado.innerHTML =
             "<span>🎉Você acertou!🎉</span> <br><br>Atualize a página para adivinhar outro número.";
     } else if (chute > 20 || chute < 0) {
-        elementoResultado.innerHTML = "Você deve digitar um número de 0 a 10. 🤔";
+        elementoResultado.innerHTML = "Não é esse, você adivinhar entre 0 a 20. 🤔";
     } else if (chute > numeroSecreto) {
         elementoResultado.innerHTML = "Bom palpite, pena que é maior do que deveria."
     } else {
